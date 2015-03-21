@@ -2129,11 +2129,11 @@
             text = text.replace('/', '-').replace('#','');
 
             //removing previous anchor classes
-            var classRe = new RegExp('\\b\\s?' + VIEWING_PREFIX + '-[^\\s]+\\b', "g");
-            $body[0].className = $body[0].className.replace(classRe, '');
+            //var classRe = new RegExp('\\b\\s?' + VIEWING_PREFIX + '-[^\\s]+\\b', "g");
+            //$body[0].className = $body[0].className.replace(classRe, '');
 
             //adding the current anchor
-            $body.addClass(VIEWING_PREFIX + '-' + text);
+            //$body.addClass(VIEWING_PREFIX + '-' + text);
         }
 
         /**
